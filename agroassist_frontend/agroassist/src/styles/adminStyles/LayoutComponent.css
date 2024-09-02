@@ -1,0 +1,36 @@
+/* File: LayoutComponent.css */
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the layout takes full height */
+}
+
+.home-container {
+    position: fixed; /* Fixes HomeComponent at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures HomeComponent stays above other content */
+}
+
+.main-content {
+    margin-top: 100px; /* Adjust this value to match the height of HomeComponent */
+    padding: 20px; /* Add padding as needed */
+    flex: 1; /* Allows the main content to grow and fill the available space */
+}
+
+/* components/admin/LayoutComponent.css */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

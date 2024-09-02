@@ -1,0 +1,21 @@
+.user-list {
+    padding: 20px;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list table, th, td {
+    border: 1px solid #ddd;
+}
+
+.user-list th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.user-list th {
+    background-color: #f4f4f4;
+}
